@@ -14,7 +14,7 @@ echo $@
 # Export JAVA_HOME Variable within Entrypoint
 export JAVA_HOME="/usr/lib/jvm/java-9-openjdk"
 
-export HEAP="-Xms2g -Xmx7g -XX:MaxMetaspaceSize=256m"
+export HEAP="-Xms1g -Xmx5g -XX:MaxMetaspaceSize=256m"
 
 if [ -n "$DEPENDENCY_FOLDER" ]
 then
